@@ -105,32 +105,22 @@ p {
 
 .wrap {
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 30%;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
   
 .box {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: flex-start;
-}
-  
-.logo {
-    display: flex;
-    height: 50px;
     z-index: 2;
-    cursor: pointer;
-    align-items: center;
-    background-color: #C13D4C;
 }
   
 .hid-box {
     display: flex;
-    flex-direction: row;
     position: relative;
     flex: 1 0 100%;
     align-items: center;
@@ -145,7 +135,7 @@ p {
     font-size: 24px;
 }
   
-.logo:hover ~ .hid-box, .hid-box:hover {
+.box:hover ~ .hid-box, .hid-box:hover {
     transform: translateX(-5%);
     opacity: 1;
 }
