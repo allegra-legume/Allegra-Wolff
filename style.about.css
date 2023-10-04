@@ -126,7 +126,7 @@ p {
     height: 56px;
     overflow: auto;
     opacity: 0;
-    transform: translateX(-90%);
+    transform: translateX(-100%);
     transition: 1s ease;
     margin-left: 1em;
     font-family: 'Sora', sans-serif;
@@ -135,7 +135,7 @@ p {
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
-    transform: translateX(-5%);
+    transform: translateX(0%);
     opacity: 1;
 }
 
