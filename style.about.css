@@ -115,7 +115,7 @@ p {
   
 .box {
     display: flex;
-    z-index: 2;
+    z-index: 3;
 }
   
 .hid-box {
@@ -128,7 +128,7 @@ p {
     opacity: 0;
     transform: translateX(-90%);
     transition: 1s ease;
-    margin-left: 1em;
+    margin-left: 2em;
     font-family: 'Sora', sans-serif;
     color: #F5F0DD;
     font-size: 24px;
