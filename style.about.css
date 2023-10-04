@@ -104,28 +104,29 @@ p {
 
 .wrap {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     overflow: hidden;
-    margin: 2%;
+    margin: 0;
+    padding: 0;
 }
   
 .box {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
 }
   
 .hid-box {
     display: flex;
+    flex-direction: row;
     position: relative;
     flex: 1 0 100%;
     align-items: center;
     height: 56px;
     overflow: auto;
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-90%);
     transition: 1s ease;
     margin-left: 1em;
     font-family: 'Sora', sans-serif;
@@ -134,7 +135,7 @@ p {
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
-    transform: translateX(0%);
+    transform: translateX(-5%);
     opacity: 1;
 }
 
