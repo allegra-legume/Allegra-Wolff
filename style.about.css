@@ -139,6 +139,7 @@ p {
 .box:hover ~ .hid-box, .hid-box:hover {
     transform: translateX(0%);
     opacity: 1;
+    margin-left: 60px;
 }
 
 .title {
