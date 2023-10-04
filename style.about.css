@@ -156,17 +156,19 @@ p {
 }
 
 .subtitle {
-    display: flex;
+    display: inline-flex;
     z-index: 2;
     background-color: #EE9F9A;
     justify-content: center;
     align-items: center;
-    transform: translateY(-40%);
-    height: 30%;
+    transform: translateY(-30%);
+    height: 18%;
+    width: 30%;
     padding-left: 16%;
     padding-right: 16%;
     color: #F5F0DD;
     border-radius: 16px;
+    text-wrap: nowrap;
 }
 
 #content {
