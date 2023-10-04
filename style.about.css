@@ -115,8 +115,6 @@ p {
   
 .box {
     display: flex;
-    justify-content: flex-start;
-    position: absolute;
     z-index: 2;
 }
   
