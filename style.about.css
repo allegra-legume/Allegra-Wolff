@@ -16,8 +16,8 @@ body {
   
 #navbar {
     display: flex;
-    flex-direction: row;
     height: 56px;
+    align-items: center;
     justify-content: space-between;
     background-color: #C13D4C;
     padding-top: 0.5%;
@@ -32,6 +32,13 @@ body {
     align-items: center;
     height: auto;
     justify-content: flex-end;
+}
+
+svg {
+    display: flex;
+    align-self: stretch;
+    height: auto;
+    width: auto;
 }
   
 #navigation a {
@@ -114,12 +121,11 @@ p {
   
 .logo {
     display: flex;
-    max-width: 50%;
-    min-width: 30%;
     height: 50px;
     z-index: 2;
     cursor: pointer;
     align-items: flex-start;
+    background-color: #C13D4C;
 }
   
 .hid-box {
@@ -131,9 +137,9 @@ p {
     height: 56px;
     overflow: auto;
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-90%);
     transition: 1s ease;
-    margin: 0;
+    margin-left: 1em;
     font-family: 'Sora', sans-serif;
     color: #F5F0DD;
     font-size: 24px;
