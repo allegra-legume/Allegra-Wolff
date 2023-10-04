@@ -108,7 +108,7 @@ p {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 50%;
+    width: 30%;
     overflow: hidden;
 }
   
@@ -124,7 +124,7 @@ p {
     height: 50px;
     z-index: 2;
     cursor: pointer;
-    align-items: flex-start;
+    align-items: center;
     background-color: #C13D4C;
 }
   
