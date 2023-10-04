@@ -3,14 +3,14 @@ body {
     flex-direction: column;
     background-color: #F5F0DD;
     margin: 0;
+    overflow: hidden;
 }
 
 #bodycontent {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
 }
   
@@ -122,7 +122,7 @@ p {
     align-items: flex-start;
 }
   
-  .hid-box {
+.hid-box {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -146,13 +146,15 @@ p {
 
 .title {
     display: inline-flex;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     border: 4px solid #C13D4C;
     border-radius: 40px;
     color: #C13D4C;
-    padding-left: 16%;
-    padding-right: 16%;
+    height: 30%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .subtitle {
@@ -171,16 +173,30 @@ p {
     text-wrap: nowrap;
 }
 
+.text {
+    display: flex;
+}
+
 #content {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#contentrow {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .image {
     display: flex;
-    width: 20%;
-    height: 20%;;
+    width: 40%;
+    height: 400px;
+    min-width: 100px;
+    min-height: auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -189,7 +205,16 @@ p {
     }
 
     .title {
+        height: 18%;
         border-radius: 30px;
+    }
+
+    .title h1 {
+        font-size: px;
+    }
+
+    .subtitle {
+        height: 10%;
     }
   
     h3 {
@@ -199,6 +224,10 @@ p {
     h4 {
       font-size: 16px;
     }
+
+    .image {
+        height: 260px;
+    }
   
     #navigation a {
       font-size: 16px;
@@ -206,9 +235,5 @@ p {
   
     #navigation a.active {
       border-radius: 8px;
-    }
-  
-    .textandbutton h4 {
-      font-size: 16px;
     }
 }
