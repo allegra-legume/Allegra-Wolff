@@ -103,7 +103,7 @@ p {
 }
 
 .wrap {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -195,13 +195,11 @@ p {
     border-color: #EE9F9A;
     width: 40%;
     height: 400px;
-    min-width: 100px;
-    min-height: auto;
-    padding: 8px;
 }
 
 .image img {
     border-radius: 20px;
+    margin: 8px;
 }
 
 @media screen and (max-width: 800px) {
