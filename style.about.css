@@ -38,6 +38,7 @@ svg {
     align-self: stretch;
     height: auto;
     width: auto;
+    z-index: 2;
 }
   
 #navigation a {
@@ -104,6 +105,8 @@ p {
 
 .wrap {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -111,7 +114,7 @@ p {
   
 .box {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
 }
   
