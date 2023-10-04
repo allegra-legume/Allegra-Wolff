@@ -115,6 +115,7 @@ p {
   
 .box {
     display: flex;
+    z-index: 2;
 }
   
 .hid-box {
