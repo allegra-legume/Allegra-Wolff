@@ -135,6 +135,7 @@ p {
     font-family: 'Sora', sans-serif;
     color: #F5F0DD;
     font-size: 24px;
+    margin-left: 40%;
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
