@@ -209,7 +209,7 @@ p {
     border-color: #EE9F9A;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     h1 {
       font-size: 36px;
     }
@@ -246,4 +246,4 @@ p {
     #navigation a.active {
       border-radius: 8px;
     }
-}
+} */
