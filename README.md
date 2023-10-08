@@ -1,2 +1,3 @@
 # Allegra's Code
- This is the first repo I'm creating for boot camp
+This is my code for my portfolio website.
+I'm in the process of learning HTML, CSS, and Javascript/ jQuery :)
