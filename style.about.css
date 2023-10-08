@@ -134,7 +134,7 @@ p {
     height: 56px;
     overflow: auto;
     opacity: 0;
-    transform: translateX(-70%);
+    transform: translateX(-60%);
     transition: 1s ease;
     margin-left: 60px;
     font-family: 'Sora', sans-serif;
@@ -146,7 +146,7 @@ p {
 .box:hover ~ .hid-box, .hid-box:hover {
     transform: translateX(0%);
     opacity: 1;
-    margin-left: 60px;
+/*     margin-left: 60px; */
 }
 /* ----------end logo hover code---------- */
 
