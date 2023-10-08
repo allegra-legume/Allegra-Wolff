@@ -121,6 +121,7 @@ p {
     display: flex;
     justify-content: flex-start;
     background-color: #C13D4C;
+    position: absolute;
     z-index: 2;
 }
   
