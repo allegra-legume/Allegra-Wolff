@@ -104,7 +104,7 @@ p {
     font-weight: 400;
 }
 
-/* logo hover */
+/* ----------logo hover---------- */
 .wrap {
     display: flex;
     justify-content: flex-start;
@@ -134,7 +134,7 @@ p {
     height: 56px;
     overflow: auto;
     opacity: 0;
-    transform: translateX(-80%);
+    transform: translateX(-70%);
     transition: 1s ease;
     margin-left: 60px;
     font-family: 'Sora', sans-serif;
@@ -148,7 +148,7 @@ p {
     opacity: 1;
     margin-left: 60px;
 }
-/* end logo hover code */
+/* ----------end logo hover code---------- */
 
 .title {
     display: inline-flex;
