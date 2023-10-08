@@ -104,6 +104,7 @@ p {
     font-weight: 400;
 }
 
+/* logo hover */
 .wrap {
     display: flex;
     justify-content: flex-start;
@@ -119,6 +120,7 @@ p {
 .box {
     display: flex;
     justify-content: flex-start;
+    background-color: #C13D4C;
     z-index: 2;
 }
   
@@ -145,6 +147,7 @@ p {
     opacity: 1;
     margin-left: 60px;
 }
+/* end logo hover code */
 
 .title {
     display: inline-flex;
