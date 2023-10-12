@@ -115,20 +115,10 @@ p {
     gap: 0;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     background-color: #C13D4C;
 }
-  
-.box {
-    display: flex;
-    justify-content: flex-start;
-    /*added align-items */
-    align-items: center;
-    background-color: #C13D4C;
-    position: absolute;
-    z-index: 2;
-}
-  
+   
 .hid-box {
     display: flex;
     justify-content: flex-start;
@@ -145,6 +135,16 @@ p {
     color: #F5F0DD;
     font-size: 24px;
     margin-left: 40%;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+    /*added align-items */
+    align-items: center;
+    background-color: #C13D4C;
+    position: absolute;
+    z-index: 2;
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
