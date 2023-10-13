@@ -129,16 +129,14 @@ a p {
   
 .hid-box {
     display: flex;
-    flex-direction: row;
     position: relative;
     flex: 1 0 100%;
     align-items: center;
-    height: 56px;
     overflow: auto;
     opacity: 0;
     transform: translateX(-30%);
     transition: 1s ease;
-    margin-left: 1em;
+    margin-left: 3em;
     font-family: 'Sora', sans-serif;
     color: #F5F0DD;
     font-size: 24px;
