@@ -145,7 +145,7 @@ a p {
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
-    transform: translateX(0%);
+    transform: translateX(10%);
     opacity: 1;
 }
 
