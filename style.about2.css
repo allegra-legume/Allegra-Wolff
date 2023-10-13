@@ -136,7 +136,7 @@ a p {
     height: 56px;
     overflow: auto;
     opacity: 0;
-    transform: translateX(-40%);
+    transform: translateX(-30%);
     transition: 1s ease;
     margin-left: 1em;
     font-family: 'Sora', sans-serif;
@@ -145,9 +145,8 @@ a p {
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
-    transform: translateX(-5%);
+    transform: translateX(0%);
     opacity: 1;
-    background-color: black;
 }
 
 #logoWrap {
