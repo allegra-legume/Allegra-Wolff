@@ -132,9 +132,10 @@ a p {
     position: absolute;
     flex: 1 0 100%;
     align-items: center;
+    justify-content: flex-start;
     overflow: none;
     opacity: 0;
-    transform: translateX(0%);
+    transform: translateX(-30px);
     transition: 1s ease;
     margin: 0;
     padding: 0;
@@ -144,7 +145,7 @@ a p {
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
-    transform: translateX(30%);
+    transform: translateX(0px);
     opacity: 1;
 }
 
@@ -174,7 +175,7 @@ a p {
       transform: translateX(2px) translateY(-9px);
     }
     99% {
-      transform: translateX(2px) translateY(-4px);
+      transform: translateX(2px) translateY(-5px);
     }
 }
 
