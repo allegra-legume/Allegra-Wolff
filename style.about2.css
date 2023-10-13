@@ -135,6 +135,7 @@ a p {
     align-items: center;
     height: 56px;
     overflow: auto;
+    background-color: black;
     opacity: 0;
     transform: translateX(-40%);
     transition: 1s ease;
