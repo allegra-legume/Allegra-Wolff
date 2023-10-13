@@ -129,9 +129,10 @@ a p {
   
 .hid-box {
     display: flex;
+    position: absolute;
     flex: 1 0 100%;
     align-items: center;
-    overflow: auto;
+    overflow: none;
     opacity: 0;
     transform: translateX(0%);
     transition: 1s ease;
@@ -143,7 +144,7 @@ a p {
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
-    transform: translateX(40%);
+    transform: translateX(30%);
     opacity: 1;
 }
 
