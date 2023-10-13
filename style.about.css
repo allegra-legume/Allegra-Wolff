@@ -108,7 +108,6 @@ p {
 .wrap {
     display: flex;
     justify-content: flex-start;
-/*     align-items: flex-start; */
     align-items: center;
 /*     width: fit-content; */
     width: 50%;
