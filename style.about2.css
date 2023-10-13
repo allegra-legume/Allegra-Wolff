@@ -133,7 +133,7 @@ a p {
     align-items: center;
     overflow: auto;
     opacity: 0;
-    transform: translateX(-30%);
+    transform: translateX(0%);
     transition: 1s ease;
     margin: 0;
     padding: 0;
