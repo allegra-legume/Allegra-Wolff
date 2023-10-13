@@ -116,8 +116,6 @@ a p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    overflow: hidden;
-    position: absolute;
     margin: 0;
     padding: 0;
 }
