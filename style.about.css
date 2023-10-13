@@ -111,11 +111,11 @@ p {
 /*     align-items: flex-start; */
     align-items: center;
 /*     width: fit-content; */
-    width: auto;
+    width: 50%;
     gap: 0;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    overflow: hidden;
     background-color: #C13D4C;
 }
    
